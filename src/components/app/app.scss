@@ -1,0 +1,65 @@
+.App {
+    text-align: center;
+}
+
+.header-section {
+    min-height: 640px;
+    background: url("./mainbg.jpg") center center / cover no-repeat;
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+    padding-top: 52px;
+    margin-left: 149px;
+    position: relative;
+    &:first-child {
+        &::before {
+            content: url(./logo.png);
+            position: absolute;
+            left: -38px;
+            top: 30px;
+        }
+    }
+    &.menu-footer {
+        justify-content: center;
+        padding-top: 52px;
+        margin-left: 0px;
+        position: relative;
+        margin-bottom: 30px;
+        &:first-child {
+            &::before {
+                content: url(./logoblack.png);
+                position: absolute;
+                left: 35%;
+                top: 30px;
+            }
+        }
+    }
+}
+.section-aboutus {
+    min-height: 520px;
+    padding-top: 80px;
+}
+.aboutus-text {
+    max-width: 590px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.section-items {
+    padding-top: 88px;
+    min-height: 495px;
+    background: url("./paperbg.png") center center / cover no-repeat;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;
+    margin-top: 30px;
+}
+.footer {
+    min-height: 150px;
+}

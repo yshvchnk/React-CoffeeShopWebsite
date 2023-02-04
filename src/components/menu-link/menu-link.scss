@@ -1,0 +1,13 @@
+.menu-link {
+    list-style: none;
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+        &.black {
+            color: #000;
+        }
+    }
+}
